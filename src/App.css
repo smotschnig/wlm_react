@@ -1,0 +1,41 @@
+html {
+    font-size: 1rem;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card-business {
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.card-body-view {
+    border-top: 1px solid rgba(0,0,0,.125)
+}
+
+.footer {
+    background-color: #333;
+}
+
+.navbar-wlm, .content-heading {
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+}
+
+.sm-icon {
+    opacity: 0.6;
+    transition: opacity .20s ease-in-out;
+    -moz-transition: opacity .20s ease-in-out;
+    -webkit-transition: opacity .20s ease-in-out;
+}
+
+.sm-icon:hover {
+    opacity: 1.0;
+    transition: opacity .20s ease-in-out;
+    -moz-transition: opacity .20s ease-in-out;
+    -webkit-transition: opacity .20s ease-in-out;
+}
